@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 64 64">
+  <defs>
+    <mask id="eye-cuts" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="white"/>
+      <path d="M16.4 17.2 23.6 26.8M40.4 26.8 47.6 17.2M16.4 46.8 23.6 37.2M40.4 37.2 47.6 46.8"
+        fill="none" stroke="black" stroke-width="2.1"/>
+    </mask>
+    <clipPath id="iris-outline">
+      <circle cx="32" cy="32" r="9.2"/>
+    </clipPath>
+    <mask id="iris-cuts" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64">
+      <rect width="64" height="64" fill="white"/>
+      <path d="M28.5 20h2.1v12h-2.1zM33.4 20h2.1v24h-2.1zM30.6 25.7h2.8v2.1h-2.8z" fill="black"/>
+    </mask>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#142925"/>
+  <rect x="2.5" y="2.5" width="59" height="59" rx="14.5" fill="none" stroke="#36594e"/>
+  <path d="M10 32 20 22Q32 13 44 22L54 32 44 42Q32 51 20 42Z"
+    mask="url(#eye-cuts)" fill="none" stroke="#79e2c5" stroke-width="3" stroke-linejoin="miter"/>
+  <g clip-path="url(#iris-outline)" mask="url(#iris-cuts)">
+    <circle cx="32" cy="32" r="7.8" fill="none" stroke="#79e2c5" stroke-width="2.8"/>
+    <rect x="30.6" y="20" width="2.8" height="24" fill="#79e2c5"/>
+  </g>
+  <polygon points="43.3,28.25 43.3,35.75 49.79519,32" fill="#a78bfa"/>
+</svg>
