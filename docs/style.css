@@ -231,6 +231,19 @@ html[lang="en"] .hero h1 { font-size: clamp(32px, 4.4vw, 60px); }
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding: 32px 0 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 footer nav { display: flex; flex-wrap: wrap; gap: 8px 20px; }
 footer a { color: var(--ink-soft); }
+footer .consent-settings { padding: 0; border: 0; background: none; color: var(--ink-soft); font: inherit; text-decoration: underline; text-underline-offset: 0.2em; cursor: pointer; }
+footer .consent-settings:hover { color: var(--ink); }
+
+/* 流量統計同意：貼在視窗底部，不擋住內容；同意與拒絕兩顆按鈕樣式相同 */
+.consent {
+  position: fixed; z-index: 50; left: 16px; right: 16px; bottom: 16px; margin: 0 auto; max-width: 760px; box-sizing: border-box;
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 20px; padding: 14px 18px;
+  border: 1px solid var(--line-strong); border-radius: 14px; background: var(--bg-raise); box-shadow: 0 12px 40px #0009;
+}
+.consent p { flex: 1 1 320px; margin: 0; font-size: 15px; line-height: 1.6; color: var(--ink-soft); }
+.consent div { display: flex; gap: 10px; margin-left: auto; }
+.consent button { min-width: 88px; height: 38px; padding: 0 16px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--bg-sunk); color: var(--ink); font: inherit; font-size: 15px; cursor: pointer; }
+.consent button:hover { border-color: var(--mint); }
 
 /* ── 隱私權政策、服務條款：單欄文件 ── */
 .doc { max-width: 44em; padding: 48px 0 96px; }

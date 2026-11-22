@@ -119,12 +119,17 @@
     '下載 {0} 版': 'Download for {0}',
     '即將推出': 'Coming soon',
     '正式版即將推出 · ': 'Release coming soon · ',
-    '目前版本 {0} · ': 'Version {0} · '
+    '目前版本 {0} · ': 'Version {0} · ',
+    'Cookie 同意': 'Cookie consent',
+    'Cookie 設定': 'Cookie settings',
+    '本網站想用 Google Analytics 統計瀏覽人數與來源。同意後才會在你的瀏覽器存放 Cookie；拒絕不影響使用。': 'This website would like to use Google Analytics to count visits and where they come from. Cookies are stored in your browser only if you accept; declining does not affect the site.',
+    '同意': 'Accept',
+    '拒絕': 'Decline'
   };
 
   // 句子裡夾著標籤的段落，中英語序不同，整段替換。鍵是標了 data-i18n-html 的元素內容
   var html = {
-    '本網站使用 Google Analytics 統計瀏覽人數與來源，會在瀏覽器存放 Cookie，記錄造訪的頁面、來源網站、裝置類型與大略地區，不記錄姓名或電子郵件。這只涉及網站，GitPeeker 桌面程式不使用 Google Analytics。你可以在瀏覽器封鎖 Cookie，或安裝 <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics 停用外掛</a>。': 'This website uses Google Analytics to count visits and where they come from. It stores cookies in your browser and records the pages you visit, the referring site, your device type and approximate region, but not your name or email address. This applies only to the website; the GitPeeker desktop app does not use Google Analytics. You can block cookies in your browser or install the <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics opt-out add-on</a>.',
+    '本網站在你同意後才使用 Google Analytics 統計瀏覽人數與來源。同意後會在瀏覽器存放 Cookie，記錄造訪的頁面、來源網站、裝置類型與大略地區，不記錄姓名或電子郵件；沒有同意或選擇拒絕時不載入 Google Analytics，也不存放這些 Cookie。這只涉及網站，GitPeeker 桌面程式不使用 Google Analytics。你可以隨時從頁尾的「Cookie 設定」改變選擇，或安裝 <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics 停用外掛</a>。': 'This website uses Google Analytics to count visits and where they come from only after you accept. Once you accept, it stores cookies in your browser and records the pages you visit, the referring site, your device type and approximate region, but not your name or email address. If you have not accepted, or you decline, Google Analytics is not loaded and these cookies are not stored. This applies only to the website; the GitPeeker desktop app does not use Google Analytics. You can change your choice at any time from "Cookie settings" in the footer, or install the <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics opt-out add-on</a>.',
     '使用 Google Drive 備份時，GitPeeker 透過 Google Drive API 取得帳號顯示名稱、電子郵件和 Drive 權限識別碼，用於顯示已連接的帳號並核對備份位置。程式以 <code>drive.file</code> 權限存取個別檔案與資料夾。': 'When you use Google Drive backup, GitPeeker uses the Google Drive API to obtain your account display name, email address and Drive permission ID, in order to show the connected account and verify the backup location. The app accesses individual files and folders with the <code>drive.file</code> scope.',
     'Google 授權憑證在本機使用。若作業系統提供安全的加密儲存，GitPeeker 會加密保存更新憑證及相關帳號資訊。沒有安全的加密儲存時，憑證只保留在記憶體。你可在 GitPeeker 解除連線以移除本機授權憑證，或從 <a href="https://myaccount.google.com/connections">Google 帳戶的第三方連線</a>撤銷 Google 授權。': 'Google authorization credentials are used on your computer. If the operating system provides secure encrypted storage, GitPeeker stores the refresh token and related account information encrypted. Without secure encrypted storage, credentials are kept in memory only. You can disconnect in GitPeeker to remove the local credentials, or revoke the Google authorization from <a href="https://myaccount.google.com/connections">third-party connections in your Google Account</a>.',
     'GitPeeker 對 Google API 資料的使用與移轉遵循 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 要求。隱私問題可寄至 catz.software@gmail.com。': 'GitPeeker\'s use and transfer of Google API data adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. Privacy questions can be sent to catz.software@gmail.com.',

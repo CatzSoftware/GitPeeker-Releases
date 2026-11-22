@@ -2,14 +2,6 @@
 <html lang="zh-Hant-TW">
 <head>
 <meta charset="utf-8">
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-WJEBBVJM6R"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-WJEBBVJM6R');
-</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GitPeeker 隱私權政策 · CatzSoftware</title>
 <meta name="description" content="GitPeeker 桌面版下載與 Google Drive 備份說明">
@@ -36,7 +28,7 @@
     <p>你選取的儲存庫及 Git 歷史會暫存在本機，接著由桌面程式直接上傳到你擁有且未共用的 Google Drive 資料夾。備份紀錄包含儲存庫識別資訊、Git refs、時間、檔案大小與校驗值。還原時，程式從 Drive 下載資料，在你指定的位置建立新的本機目錄。備份資料與授權憑證不經 CodingCatz 的伺服器。備份檔案未由 GitPeeker 另行加密，程式也不會新增共用權限。</p>
     <p data-i18n-html>Google 授權憑證在本機使用。若作業系統提供安全的加密儲存，GitPeeker 會加密保存更新憑證及相關帳號資訊。沒有安全的加密儲存時，憑證只保留在記憶體。你可在 GitPeeker 解除連線以移除本機授權憑證，或從 <a href="https://myaccount.google.com/connections">Google 帳戶的第三方連線</a>撤銷 Google 授權。</p>
     <p>Drive 備份會保留在你的 Google Drive，直到你透過 Drive 移除它們。解除連線或撤銷授權不會刪除先前的備份。還原到本機的資料由你管理。</p>
-    <p data-i18n-html>本網站使用 Google Analytics 統計瀏覽人數與來源，會在瀏覽器存放 Cookie，記錄造訪的頁面、來源網站、裝置類型與大略地區，不記錄姓名或電子郵件。這只涉及網站，GitPeeker 桌面程式不使用 Google Analytics。你可以在瀏覽器封鎖 Cookie，或安裝 <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics 停用外掛</a>。</p>
+    <p data-i18n-html>本網站在你同意後才使用 Google Analytics 統計瀏覽人數與來源。同意後會在瀏覽器存放 Cookie，記錄造訪的頁面、來源網站、裝置類型與大略地區，不記錄姓名或電子郵件；沒有同意或選擇拒絕時不載入 Google Analytics，也不存放這些 Cookie。這只涉及網站，GitPeeker 桌面程式不使用 Google Analytics。你可以隨時從頁尾的「Cookie 設定」改變選擇，或安裝 <a href="https://tools.google.com/dlpage/gaoptout">Google Analytics 停用外掛</a>。</p>
     <p data-i18n-html>GitPeeker 對 Google API 資料的使用與移轉遵循 <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>，包括 Limited Use 要求。隱私問題可寄至 catz.software@gmail.com。</p>
   </main>
   <footer>
@@ -49,5 +41,6 @@
   </footer>
 </div>
 <script src="../i18n.js"></script>
+<script src="../analytics.js"></script>
 </body>
 </html>
